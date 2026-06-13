@@ -1,0 +1,61 @@
+.middle-container {
+  margin: 100px 0;
+}
+
+#profile-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.middle-section-intro {
+  width: 30%;
+  margin: auto;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.skills_list-container {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  grid-template-rows: repeat(1, 1fr);
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  row-gap: 2rem;
+}
+
+h3 {
+  color:#11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+.skills {
+  margin-top: 0;
+}
+
+.skill_list_2-icon > img {
+  width: 50%;
+  margin-left: 30px;
+}
+
+/*middle section part 3*/
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+}
